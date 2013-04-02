@@ -1,0 +1,38 @@
+# default Styles:
+# make sure these fonts exist on your system:
+Style *           Font -adobe-times-bold-r-*-*-12-*-*-*-*-*-*-*
+Style *           IconFont -adobe-times-bold-r-*-*-12-*-*-*-*-*-*-*
+Style *           ForeColor grey80, BackColor grey40
+Style *           HilightFore black, HilightBack grey80
+Style *           BorderWidth 7, HandleWidth 7
+Style *           Icon unknown1.xpm, Color lightgrey/dimgrey
+Style *           MWMFunctions, MWMDecor, HintOverride
+Style *           DecorateTransient, NoPPosition
+Style *           IconBox 0 -10 -280 -1
+Style *           SloppyFocus
+Style *           TileCascadePlacement
+
+# Styles for various Fvwm modules:
+Style Fvwm*       NoTitle,  Sticky, WindowListSkip
+Style Fvwm*       BorderWidth 2, CirculateSkipIcon, CirculateSkip
+Style FvwmPager   StaysOnTop
+Style FvwmBanner  StaysOnTop
+# Style FvwmButtons Icon toolbox.xpm, NeverFocus
+
+# Styles for your common terminal emulator programs.
+# xterms and rxvts in a separate icon box:
+Style XTerm       Icon xterm.xpm, SloppyFocus, IconBox -70 1 -1 -140
+Style rxvt        Icon term.xpm, SloppyFocus, IconBox -70 1 -1 -140
+Style rxvt        MWMBorder, MWMButtons
+
+# Styles for various common programs:
+Style xload       NoTitle, Sticky, WindowListSkip, NeverFocus, !Borders
+Style xclock      NoTitle, Sticky, WindowListSkip, NeverFocus, !Borders
+Style xbiff       NoTitle, Sticky, WindowListSkip, NeverFocus, !Borders
+Style xcalc       Icon xcalc.xpm, NoButton 2,ClickToFocus
+Style xmh         Icon mail1.xpm, NoIconTitle,StickyIcon
+Style xmh         NoButton 2
+Style xman        Icon xman.xpm, ClickToFocus
+Style xmag        Icon mag_glass.xpm, ClickToFocus
+Style xgraph      Icon graphs.xpm, ClickToFocus
+# Style xmosaic     Color Green/Yellow, ClickToFocus

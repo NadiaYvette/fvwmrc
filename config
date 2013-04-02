@@ -1,0 +1,37 @@
+# nyc's .fvwm config
+
+# EdgeResistance 250
+EdgeResistance 500
+EdgeScroll 100 100
+ClickTime 750
+
+MenuStyle * fvwm, Foreground white, Background grey50, Greyed grey30
+MenuStyle * Font -adobe-times-bold-r-*-*-14-*-*-*-*-*-*-*
+
+ColormapFocus FollowsFocus
+SloppyFocus FollowsMouse
+
+# Exec hsetroot -fill $HOME/Pictures/stone.jpg
+# Exec xmodmap $HOME/.Xmodmap
+# Exec xcompmgr
+# Exec xclock
+# Exec xload
+# Exec transset -n xclock 0.4
+# Exec transset -n xload  0.4
+
+read styles
+read keys
+read mouse
+read menu
+
+# Read config files for modules:
+FvwmAuto 200 Raise Nop
+read backer
+# read buttons
+# read iconbox
+# read iconman
+read ident
+read pager
+read scroll
+# read taskbar
+read winlist

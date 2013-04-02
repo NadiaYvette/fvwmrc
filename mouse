@@ -1,0 +1,18 @@
+# some simple default mouse bindings:
+#   for the root window:
+Mouse 1 R       A       Menu MenuFvwmRoot Nop
+Mouse 2 R       A       Menu MenuFvwmWindowOps Nop
+Mouse 3 R       A       WindowList
+
+#   for the title bar buttons:
+Mouse 0 1       A       Menu MenuFvwmWindowOps2 Close
+Mouse 0 2       A       FuncFvwmMaximize
+Mouse 0 4       A       Iconify
+
+#   for other parts of the window/borders/icons:
+Mouse 1 F       A       FuncFvwmResizeOrRaise
+Mouse 1 TS      A       FuncFvwmMoveOrRaise
+Mouse 1 I       A       FuncFvwmMoveOrIconify
+Mouse 2 I       A       Iconify
+Mouse 2 FST     A       Menu MenuFvwmWindowOps2 Nop
+Mouse 3 TSIF    A       RaiseLower
