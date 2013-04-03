@@ -1,3 +1,8 @@
 # some simple default key bindings:
 Key Next         A       SCM     Next [*] Focus
 Key Prior        A       SCM     Prev [*] Focus
+
+Key Up		A	C	GotoPage -0p -1p
+Key Down	A	C	GotoPage +0p +1p
+Key Left	A	C	GotoPage -1p -0p
+Key Right	A	C	GotoPage +1p +0p
